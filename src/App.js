@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+import axios from 'axios'
 import './App.css';
 import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
 import { Routes, Route} from 'react-router-dom'
 import Decouvrir from './pages/Decouvrir';
+import { useEffect } from 'react';
 
 function App() {
   return (
